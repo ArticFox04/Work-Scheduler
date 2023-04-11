@@ -19,6 +19,10 @@ $(function () {
         $("#" + divId).addClass("future");
       }
     }
+
+    for (let i = 0; i < localStorage.length; i++) {
+      $("#" + localStorage.key(i)).children("textarea").val(localStorage.getItem(localStorage.key(i)));
+    }
   
 
 

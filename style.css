@@ -1,15 +1,24 @@
 body {
-    font-family: 'Open Sans', sans-serif;
+   font-family: 'Times New Roman', Times, serif;
     font-size: 16px;
+    background-color: beige;
   }
   
   textarea {
     background: transparent;
-    border: none;
+    border: dotted;
     resize: none;
     color: #000000;
     border-left: 1px solid black;
     padding: 10px;
+  }
+
+  .display-3{
+    border: dotted;
+    text-align:center;
+  }
+  .lead{
+    text-align: center;
   }
   
   .description {
@@ -25,9 +34,10 @@ body {
   }
   
   .hour {
-    background-color: #ffffff;
+    background-color: #908c8c;
     color: #000000;
     border-top: 1px dashed #000000;
+    border: dotted;
   }
   
   .past {
@@ -49,8 +59,9 @@ body {
     border-left: 1px solid black;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
+    border: dotted;
     background-color: #06aed5;
-    color: white;
+    color: rgb(35, 3, 3);
   }
   
   .saveBtn i:hover {
